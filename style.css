@@ -54,13 +54,15 @@ body {
         overflow-y: auto;
         overflow-x: hidden;
         display: block;
+        padding: 20px;
     }
 
     .full-image {
-        width: 100%;
+        width: 90%;
         height: auto;
         object-fit: contain;
         display: block;
+        margin: 0 auto;
     }
 }
 
