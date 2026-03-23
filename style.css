@@ -36,13 +36,14 @@ body {
         -webkit-touch-callout: none;
         -webkit-user-select: none;
         user-select: none;
+        display: block;
     }
 
     .full-image {
         width: 100%;
         height: auto;
-        min-height: 100vh;
-        object-fit: cover;
+        object-fit: contain;
+        display: block;
     }
 }
 
